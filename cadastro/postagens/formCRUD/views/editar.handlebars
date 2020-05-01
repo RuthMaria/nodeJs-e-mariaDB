@@ -1,0 +1,103 @@
+<section id="secao">
+    <div id="tema">
+        <hr>
+        <h3>Escreva uma postagem</h3>
+        <hr>
+    </div>
+     <!-- action define a rota que será chamada -->
+    <form action="/edit" method="POST">
+        <p></strong> Titulo: </p>
+        <input type="text" name="titulo" id="titulo">
+
+        <p>Conteúdo: </p>
+        <textarea name="conteudo" id="conteudo"></textarea>
+        <div id="botoes">
+            <a href="/"><button id="btn1">Cancelar</button></a>
+            <button type="submit" id="btn2">Salvar</button>
+        </div>
+    </form>
+</section>
+
+<footer>
+    &copy; Desenvolvido por<a href="mailto:ruthmariia01@gmail.com">Ruth Maria</a>
+</footer>
+
+<style>
+    #secao {
+        background: rgba(245, 196, 122, 0.938);
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        text-align: left;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.678);
+        font: normal 15pt Arial;
+    }
+
+    #botoes {
+        text-align: center;
+        padding: 15px;
+    }
+
+    p {
+        font-weight: bold;
+        color: black;
+        text-align: left;
+    }
+
+    #btn1{
+        background-color: rgb(245, 245, 10);
+        border-radius: 5px;
+        width: 90px;
+        height: 30px;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: blue;
+        border-radius: 5px;
+        width: 90px;
+        height: 30px;
+        font-weight: bold;
+    }
+
+    #tema {
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        
+    }
+
+
+    #conteudo {
+        width: 450px;
+        height: 150px;
+
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    #titulo {
+        width: 450px;
+        height: 25px;
+        border-radius: 10px;
+        resize: none;
+        margin: auto;
+    }
+
+    footer,
+    a {
+        color: black;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    form {
+        margin-top: 50px;
+        padding: 15px;
+        width: 500px;
+        height: 350px;
+    }
+</style>
