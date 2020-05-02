@@ -2,14 +2,13 @@
 <section id="secao">
     <div id="tema">
         <hr>
-        <h2>Lista de Posts</h2>
+        <h2>Lista de postagens</h2>
         <hr>
     </div>
 
     {{#each posts}}
         <h3>{{dataValues.titulo}}</h3>
         <p id="conteudo">{{dataValues.conteudo}}</p>
-      <!--  <p>{{dataValues.createdAt}}</p> mostra a data que o dado foi inserido no bd-->
 
         <div id="botoes">
             <a href="/editar/{{dataValues.id}}"><button id="btn1">Editar</button>
@@ -21,6 +20,6 @@
 </section>
 
 <footer>
-   <p><a href="/cadastrar"><button id="btn3">Criar novo post</button></a></p>
-    &copy; Desenvolvido por<a href="mailto:ruthmariia01@gmail.com">Ruth Maria</a>
+   <a href="/cadastrar"><button id="btn3">Criar novo post</button></a>
+    <p>&copy; Desenvolvido por<a href="mailto:ruthmariia01@gmail.com">Ruth Maria</a></p>
 </footer>
