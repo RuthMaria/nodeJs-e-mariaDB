@@ -11,6 +11,6 @@ const post = db.sequelize.define('postagens', {
     }
 })
 //comentar essa linha após executar o projeto uma vez
-//Post.sync({force: true})
+Post.sync({force: true})
 
 module.exports = post
