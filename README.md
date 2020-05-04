@@ -5,6 +5,7 @@
 ## Requisitos
 - MariaDB
 - NodeJS na sua versão LTS
+- Visual Studio Code
 
 ## Comandos
 
