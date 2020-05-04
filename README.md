@@ -1,6 +1,9 @@
 # Postagens
 
- Aplicação simples de cadastro (CRUD) com criação, leitura, atualização e exclusão de postagens. Onde cada postagem tem o seu título e a sua descrição.
+Aplicação simples de cadastro (CRUD) com criação, leitura, atualização e exclusão de postagens. Onde cada postagem tem o seu título e a sua descrição. 
+
+Este projeto faz parte dos meus estudos de nodeJS, baseado no curso do [Youtube](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B).
+
  
 ## Requisitos
 - MariaDB
