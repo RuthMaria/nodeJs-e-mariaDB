@@ -20,6 +20,7 @@ npm install --save sequelize
 npm install --save mariadb
 npm install --save express-handlebars
 npm install --save body-parser
+npm -D install nodemon
 ```
 
 - Executar projeto
