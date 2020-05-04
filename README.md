@@ -10,7 +10,7 @@
 
 - Clonar esse repositório
 ```
-git clone https://github.com/leandrobeandrade/curso-node-mysql.git
+git clone https://github.com/RuthMaria/nodeJs-e-mariaDB.git
 ```
 
 - Instalar dependências
