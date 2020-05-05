@@ -19,6 +19,7 @@ git clone https://github.com/RuthMaria/nodeJs-e-mariaDB.git
 
 - Instalar dependências
 ```
+npm init -y
 npm install express --save
 npm install --save sequelize
 npm install --save mariadb
@@ -29,14 +30,22 @@ npm install nodemon -g
 
 - Executar projeto
 
-  Criar o banco de dados cadastro
+1. Criar o banco de dados
+  
+   Nome do banco: cadastro
+  
+   Usuário: root
+  
+   Senha: sem senha
+  
+2. Rodar o comando
 
-  Rodar o comando
-  ```
-  nodemon index.js
-  ```
+   ```
+   nodemon index.js
+   ```
 
 - Acesso local
+
 ```
 localhost:8081
 ```
