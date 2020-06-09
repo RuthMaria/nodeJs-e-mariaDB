@@ -1,16 +1,40 @@
-# Postagens
+<h1 align="center"> Postagens </h1> 
+
+## :information_source: Índice
+- [Sobre](#sobre)
+- [Tecnologias usadas](#tecnologias)
+- [Executar o projeto localmente](#executar)
+
+
+<a id="sobre"></a><br>
+
+## :books: sobre
 
 Aplicação simples de cadastro (CRUD) com criação, leitura, atualização e exclusão de postagens. Onde cada postagem tem o seu título e a sua descrição. 
 
 Este projeto faz parte dos meus estudos de nodeJS, baseado no curso do [Youtube](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B).
+<a id="sobre"></a>
 
+<a id="tecnologias"></a><br>
+
+# :computer: Tecnologias usadas
+ * HTML
+ * CSS
+ * JavaScript
+ * Node.js
+ * MariaDB
+ * Express
  
-## Requisitos
+ <a id="executar"></a>
+
+## :anchor: Executar o projeto localmente
+
+### Requisitos
 - MariaDB
 - NodeJS na sua versão LTS
 - Visual Studio Code
 
-## Comandos
+### Comandos
 
 - Clonar esse repositório
 ```
@@ -28,9 +52,7 @@ npm install --save body-parser
 npm install nodemon -g
 ```
 
-- Executar projeto
-
-1. Criar o banco de dados
+- Criar o banco de dados
   
    Nome do banco: cadastro
   
@@ -38,7 +60,7 @@ npm install nodemon -g
   
    Senha: sem senha
   
-2. Rodar o comando
+- Rodar o comando
 
    ```
    nodemon index.js
@@ -50,7 +72,7 @@ npm install nodemon -g
 localhost:8081
 ```
  
-## telas
+## :iphone: telas
 
 - Adiciona uma nova postagem
 
@@ -64,3 +86,8 @@ localhost:8081
 
 ![tela de editar](https://github.com/RuthMaria/nodeJs-e-mariaDB/blob/master/cadastro/postagens/formCRUD/images/editarPostagem.png)
 
+---
+
+<h4 align="center">
+    Feito com 💜 by <a href="https://www.linkedin.com/in/ruth-maria-9b256071/" target="_blank">Ruth Maria</a>
+</h4>
