@@ -4,6 +4,7 @@
 - [Sobre](#sobre)
 - [Tecnologias usadas](#tecnologias)
 - [Executar o projeto localmente](#executar)
+- [Telas](#telas)
 
 
 <a id="sobre"></a><br>
@@ -17,7 +18,7 @@ Este projeto faz parte dos meus estudos de nodeJS, baseado no curso do [Youtube]
 
 <a id="tecnologias"></a><br>
 
-# :computer: Tecnologias usadas
+## :computer: Tecnologias usadas
  * HTML
  * CSS
  * JavaScript
@@ -25,7 +26,7 @@ Este projeto faz parte dos meus estudos de nodeJS, baseado no curso do [Youtube]
  * MariaDB
  * Express
  
- <a id="executar"></a>
+ <a id="executar"></a><br>
 
 ## :anchor: Executar o projeto localmente
 
@@ -62,16 +63,18 @@ npm install nodemon -g
   
 - Rodar o comando
 
-   ```
-   nodemon index.js
-   ```
+```
+ nodemon index.js
+```
 
 - Acesso local
 
 ```
 localhost:8081
 ```
- 
+
+ <a id="telas"></a><br>
+
 ## :iphone: telas
 
 - Adiciona uma nova postagem
